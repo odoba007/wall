@@ -25,11 +25,11 @@ function Dashboard({ children }: DashboardProps) {
           </div>
 
           <div className="user-options">
-            <a href="/dashboard/profile">
+            <Link to="/dashboard/profile">
               <span style={{ alignSelf: "center" }}>
                 <i className="far fa-user-circle my-fa-icon"></i>
               </span>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
@@ -55,19 +55,19 @@ function Dashboard({ children }: DashboardProps) {
         >
           FreedoBank
         </h2>
-        <a href="/dashboard">
+        <Link to="/dashboard">
           <span>
             <i className="fas fa-home my-fa-icon"></i>
           </span>{" "}
           Home
-        </a>
+        </Link>
         
-          <a href="/dashboard/account">
+          <Link to="/dashboard/account">
             <span>
               <i className="fas fa-university my-fa-icon"></i>
             </span>{" "}
             Account
-          </a>
+          </Link>
          
         
 
@@ -82,26 +82,26 @@ function Dashboard({ children }: DashboardProps) {
          
         
 
-        <a href="/dashboard/activities">
+        <Link to="/dashboard/activities">
           <span>
             <i className="fas fa-chart-line my-fa-icon"></i>
           </span>
           Activities
-        </a>
-        <a href="/dashboard/profile">
+        </Link>
+        <Link to="/dashboard/profile">
           <span>
             <i className="fas fa-cog my-fa-icon"></i>
           </span>{" "}
           Settings
-        </a>
+        </Link>
 
         <div className="second-side-bar-section">
-          <a href="/login">
+          <Link to="/login">
             <span>
               <i className="fas fa-power-off my-fa-icon logout-fa"></i>
             </span>
             Logout
-          </a>
+          </Link>
         </div>
       </div>
 
@@ -109,16 +109,16 @@ function Dashboard({ children }: DashboardProps) {
 
       <div className="bottom-navbar">
         <div className="bottom-navbar-items">
-          <a href="/dashboard">
+          <Link to="/dashboard">
             <i
               style={{ display: "block", fontSize: "24px" }}
               className="fas fa-home"
             ></i>
             <span style={{ fontWeight: "bolder" }}>Home</span>
-          </a>
+          </Link>
         </div>
         <div className="bottom-navbar-items">
-          <a href="/dashboard/account">
+          <Link to="/dashboard/account">
             <i
               style={{ display: "block", fontSize: "24px" }}
               className="fas fa-university"
@@ -126,11 +126,11 @@ function Dashboard({ children }: DashboardProps) {
             <span style={{ marginLeft: "-10px", fontWeight: "bolder" }}>
               Accounts
             </span>
-          </a>
+          </Link>
         </div>
 
         <div className="bottom-navbar-items">
-          <a href="/dashboard/transfer">
+          <Link to="/dashboard/transfer">
           
               
             
@@ -141,18 +141,18 @@ function Dashboard({ children }: DashboardProps) {
             <span style={{ marginLeft: "-10px", fontWeight: "bolder" }}>
               Transfer
             </span>
-          </a>
+          </Link>
         </div>
        
 
         <div className="bottom-navbar-items">
-          <a href="/dashboard/profile">
+          <Link to="/dashboard/profile">
             <i
               style={{ display: "block", fontSize: "24px" }}
               className="far fa-user-circle"
             ></i>
             <span style={{ fontWeight: "bolder" }}>Profile</span>
-          </a>
+          </Link>
         </div>
       </div>
     </div>
