@@ -1,0 +1,21 @@
+.account-details p:nth-child(2){
+    color: rgb(82, 80, 80);
+    font-weight: bolder;
+}
+
+.account-details p:nth-child(1){
+    color: green;
+    font-weight: bolder;
+}
+
+.gradient-button a{
+    background: linear-gradient(to right, #1ecad3, #01d699);
+    border: none;
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 15px;
+    width: 100%;
+    text-decoration: none;
+}

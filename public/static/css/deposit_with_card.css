@@ -1,0 +1,25 @@
+.card-form{
+    margin: 30px auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    width: 600px;
+}
+
+.card-form input, select, button{
+    width: 100% !important;
+}
+
+@media screen and (max-width: 1000px){
+    .card-form{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 70px;
+        padding: 20px;
+    }
+
+    .dashboard-content{
+        
+    }
+}
