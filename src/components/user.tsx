@@ -1,4 +1,5 @@
 import { ReactNode } from "react";
+import { Link } from "react-router-dom";
 
 interface DashboardProps {
   children: ReactNode;
@@ -70,13 +71,14 @@ function Dashboard({ children }: DashboardProps) {
          
         
 
+        <Link to={"/dashboard/transfer"}>
         
-          <a href="/dashboard/transfer">
+          
             <span>
               <i className=" fas fa-exchange-alt my-fa-icon"></i>
             </span>
             Transfer
-          </a>
+            </Link>
          
         
 
